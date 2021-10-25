@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+    background: linear-gradient(123.84deg, #3C3D3F 0.32%, #27292c 49.45%, #181818 95.61%);
+    font-family: 'Poiret One', cursive;
+    font-size: calc(10px + 6 * (100vw / 1200));
+    color: #92A0A9;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.page-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1200px) {
+    .page-wrapper {
+        padding: 0 15px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .wrapper-box {
+        margin: 0 50px;
+    }
+}
+
+
+.header {
+    max-width: 100%;
+    z-index: 2; 
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;       
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 110px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-icon:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.377)
+    
+}
+
+section {
+    width: 100%;
+    height: calc(100vh - 66px);
+}
+
+
+
+.info-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.box-info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 270px;
+    background: #303234c5;
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.4), -9px -9px 16px rgba(73, 73, 73, 0.349);
+    border-radius: 20px;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+.wrapper-text {
+    min-width: 300px;
+    margin: 30px 15px;
+    padding: 0;
+}
+
+.h1 { 
+    color: tomato;
+    margin: 0;
+    padding: 0 0 15px 0;
+
+}
+
+.text {
+    margin: 0;
+    padding: 15px 0 0 0;
+
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-box {
+    display: flex;
+    position: absolute;
+    bottom: -20px;
+    right: -50px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    background: #303234;
+    box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.4), -4px -4px 16px rgba(73, 73, 73, 0.6);
+    border-radius: 12px;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.img-main {
+    position: absolute;
+    max-width: 500px;
+    display: block;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
